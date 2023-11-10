@@ -1,0 +1,27 @@
+.ind{
+    border-radius: 10px;
+    background: #1B2133;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ind>p{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 40px 0px 0px;
+}
+
+p#rect{
+    color: #3657CB;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    background: rgba(54, 87, 203, 0.30);
+    padding: 11px;
+}

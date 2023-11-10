@@ -1,0 +1,15 @@
+.awards-page{
+    border-radius: 10px;
+    background: rgba(54, 87, 203, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    padding: 22px 0px;
+}
+
+.awards-page>div{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}

@@ -1,0 +1,44 @@
+.registr{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reg-1{
+    background: #F2F60F;
+    color: #151A26;
+    margin-top: 14px;
+}
+
+.check{
+    background: none;
+    border-radius: 0;
+    margin: 0 ;
+}
+
+
+#reg>p{
+    color: white;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+#ok {
+    margin-right: 8px;
+}
+
+span{
+    color:#F2F60F;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+span#no{
+    color: white;
+    margin-right: 2px;
+    text-decoration: none;
+    cursor: auto;
+}

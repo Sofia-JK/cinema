@@ -1,0 +1,31 @@
+.passw{
+    display: flex;
+    background: none;
+    align-items: center;
+    flex-direction: column;
+}
+
+.code{
+    display: flex;
+    justify-content: space-between;
+}
+
+.send{
+    background: #3657CB;
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 19px 43px 20px 44px;
+    margin-right: 13px;
+    width: -webkit-fill-available;
+    height: fit-content;
+}
+
+.reg-1{
+    width: 100%;
+}
+
+.passw>form>input{
+    width: 100%;
+}

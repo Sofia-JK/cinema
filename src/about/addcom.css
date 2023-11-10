@@ -1,0 +1,154 @@
+.add-comm-container{
+    display: flex;
+    flex-direction: column;
+    background: #191E2E;
+    border: solid 5px #3657CB;
+    border-radius: 10px;
+    padding: 48px 58px 53px 47px;
+    width: 100%;
+}
+
+.add-comm-head{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+
+.add-comm-head>div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.add-comm-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-comm-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 33px 0px 21px 0px;
+}
+
+.enter-head{
+    border-radius: 10px;
+    border: none;
+    background: #1E2538;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Qanelas;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 23px;
+    margin: 0px 16px 0px 0px;
+    width: -webkit-fill-available;
+
+}
+
+select{
+    border-radius: 10px;
+    border: none;
+    background: #1B2133;
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 23px 33px;
+    appearance: none;
+    background-image: url(/src/assets/select.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 90%;
+    width: 35%;
+}
+
+select:hover{
+    cursor: pointer;
+}
+
+.types-p{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.types-p>p{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 11px 15px;
+    border-radius: 10px;
+    border: none;
+    background: #1B2133;
+}
+
+p#cursive-type{
+    font-style: italic; 
+}
+
+p#under-type{
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.comment-text-inside{
+    border-radius: 10px;
+    border: none;
+    background: #1E2538;
+    max-width: 100%;
+    min-height: 344px;
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 22px 27px;
+    margin-bottom: 46px;
+}
+
+.check-and-buttons>p{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.check-and-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check-and-buttons>div{
+    display: flex;
+}
+
+.check-and-buttons>div>button:hover{
+    cursor: pointer;
+}
+
+.preview{
+    background: none;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+    margin-right: 21px;
+}
+
+.send-comm{
+    border-radius: 10px;
+    border: none;
+    background: #F2F60F;
+    color: #151A26;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 47px;
+}
+

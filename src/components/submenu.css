@@ -1,0 +1,19 @@
+#sub-menu{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+
+#sub-menu>li>a{
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 18px;
+}
+
+#sub-menu>li>a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+#sub-menu>li>a:active{
+    color: rgba(255, 255, 255, 1);
+}

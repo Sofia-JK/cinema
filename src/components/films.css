@@ -1,0 +1,44 @@
+.film{
+    display: flex;
+    flex-direction: column;
+}
+
+.film>div{
+    position: relative;
+}
+
+.film>div>img{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.film>div>p{
+    position: absolute;
+    top: 13px;
+    right: 12px;
+    border-radius: 5px;
+    border: none;
+    background: #89CB36;
+    padding: 5px 12px;
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.name{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0px 5px 0px;
+}
+
+.genre{
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 400;
+}
+

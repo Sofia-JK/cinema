@@ -1,0 +1,150 @@
+.comment-people{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 5px solid #57D043;
+    background: #191E2E;
+    padding: 47px 44px 73px 43px;
+    margin: 0px 0px 48px 0px;
+}
+
+.com-people-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.com-people-line-cont{
+    display: flex;
+    gap: 26px;
+}
+
+.com-people-line{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.com-people-1-1{
+    display: flex;
+    height: fit-content;
+}
+
+.com-people-1-1>p{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 23px 30px 0px 0px;
+}
+
+p#avatar-name{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0px 20px 0px 0px;
+}
+
+p#good-comm{
+    color: #57D043;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background: rgba(87, 208, 67, 0.38);
+    padding: 9px 17px;
+}
+
+.like-1{
+    margin-right: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.like-1>img{
+    border-radius: 10px;
+    background: #1B2133;
+    border: none;
+    padding: 12px 16px 20px 16px;
+}
+
+.like-1>p{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 29px 0px 0px 0px;
+    margin: 0;
+}
+
+.com-people-head{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 44px 0px 21px 0px;
+}
+
+p#bold-p{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+p#normal-p{
+    color: #CBCBCB;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+p#com-body{
+    display: flex;
+    flex-direction: column;
+}
+
+p#com-body>span{
+    margin: 0px 0px 15px 0px;
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 15px 0px 0px;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.com-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0px 0px 0px;
+}
+
+.com-3-1, .com-3-2{
+    display: flex;
+    align-items: center;
+}
+
+.com-3-1>p{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    padding: 0px 27px 0px 6px;
+}
+
+.com-3-2>p{
+    color: #FF9E9E;
+    font-family: Qanelas;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    padding: 0px 27px 0px 6px;
+}

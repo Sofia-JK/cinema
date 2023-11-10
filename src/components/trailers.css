@@ -1,0 +1,17 @@
+.trailer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.trailer-container>p{
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.trailer-container>img{
+    width: 100%;
+    margin: 0px 0px 11px 0px;
+}
